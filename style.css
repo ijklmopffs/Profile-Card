@@ -1,0 +1,72 @@
+body {
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(185, 75%, 39%);
+  font-size: 18px;
+  min-height: 100vh;
+}
+.card {
+  border-radius: 5px;
+  width: 350px;
+  background-color: white;
+  margin-block-end: 5px;
+}
+.pattern {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.victor {
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-block-start: -55px;
+}
+.crest {
+  text-align: center;
+  margin: 0 auto;
+}
+.crest h1 {
+  font-size: 18px;
+  display: inline-block;
+  margin-block-end: 0;
+}
+.crest span,
+.crest p {
+  color: hsl(0, 0%, 59%);
+}
+.crest p {
+  margin: 0;
+  margin-block-end: 10px;
+  margin-block-start: 10px;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: hsl(0, 0%, 59%);
+}
+.last {
+  display: flex;
+  padding: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+.last h2 {
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+  margin: 0;
+}
+.last div + div {
+  margin-inline-start: 60px;
+}
+.last p {
+  text-align: center;
+  margin: 0;
+  color: hsl(227, 10%, 46%);
+}
