@@ -8,12 +8,12 @@ body {
   background-color: hsl(185, 75%, 39%);
   font-size: 18px;
   min-height: 100vh;
+  margin: 0;
 }
 .card {
   border-radius: 5px;
   width: 350px;
   background-color: white;
-  margin-block-end: 5px;
 }
 .pattern {
   border-top-right-radius: 5px;
